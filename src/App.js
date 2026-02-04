@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path='/' element={<div>Welcome to my poertfolio</div>} />
+          <Route path='/' element={<div>Welcome to anshu poertfolio</div>} />
         </Routes>
       </BrowserRouter>
     </>
