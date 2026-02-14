@@ -33,8 +33,6 @@ export default function Navbar() {
                 px: 3,
                 py: 2,
                 borderRadius: "24px",
-
-                textTransform: "none",
                 fontWeight: 500,
                 fontSize: "20px",
                 textTransform: "none",
@@ -91,7 +89,6 @@ export default function Navbar() {
             <Typography sx={{
               color: "white",
               fontWeight: 600,
-              color: "#ccc",
               fontSize: "28px",
               textTransform: "none",
               lineHeight: "100%",
