@@ -49,7 +49,7 @@ const Home = () => {
             alignItems: "flex-start"
           }}>
             <Box>
-              <img src= {Image} />
+              <img src= {Image} alt='' />
             </Box>
 
           </Box>
