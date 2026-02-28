@@ -43,7 +43,7 @@ export default function Navbar() {
         if (element) observer.unobserve(element);
       });
     };
-  }, []);
+  }, [sections]);
 
   const scrollTo = (id) => {
     const section = document.getElementById(id);

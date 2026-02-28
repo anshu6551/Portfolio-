@@ -101,18 +101,7 @@ const NewsletterText = styled(Typography)(({ theme }) => ({
     marginBottom: '20px',
 }));
 
-const EmailField = styled(TextField)(({ theme }) => ({
-    '& .MuiOutlinedInput-root': {
-        color: '#fff',
-        '& fieldset': {
-            border: 'none',
-        },
-    },
-    '& .MuiInputBase-input': {
-        padding: '10px 0',
-        fontSize: '16px',
-    },
-}));
+
 
 const SendButton = styled(IconButton)(({ theme }) => ({
     color: '#fff',
@@ -157,10 +146,7 @@ const PolicyLinks = styled(Box)(({ theme }) => ({
     },
 }));
 
-const DividerBeforeFooter = styled(Divider)(({ theme }) => ({
-    backgroundColor: 'rgba(255,255,255,0.2)',
-    margin: '20px 0',
-}));
+
 
 const Contact = () => {
     return (

@@ -1,15 +1,9 @@
 import React from 'react';
-import { Box, Typography, LinearProgress, Button, Container, Grid, Paper, Avatar } from '@mui/material';
+import { Box, Typography, LinearProgress, Button, Container, Grid } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import cardImage from "../../Image/hire.png";
 
-const SectionTitle = styled(Typography)(({ theme }) => ({
-    fontSize: '42px',
-    fontWeight: '400',
-    color: '#000',
-    marginBottom: '20px',
-    fontFamily: 'serif',
-}));
+
 
 const Description = styled(Typography)(({ theme }) => ({
     fontSize: '16px',
@@ -61,34 +55,8 @@ const HireButton = styled(Button)(({ theme }) => ({
     },
 }));
 
-const ProfileImage = styled(Box)(({ theme }) => ({
-    width: '100%',
-    height: '400px',
-    backgroundColor: '#D9D9D9',
-    borderRadius: '20px',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    '& img': {
-        width: '100%',
-        height: '100%',
-        objectFit: 'cover',
-        borderRadius: '20px',
-    }
-}));
 
-const WorkBadge = styled(Box)(({ theme }) => ({
-    marginBottom: '20px',
-    '& .company': {
-        fontSize: '18px',
-        fontWeight: '600',
-        color: '#000',
-    },
-    '& .date': {
-        fontSize: '14px',
-        color: '#666',
-    },
-}));
+
 
 const Hire = () => {
     const skills = [
