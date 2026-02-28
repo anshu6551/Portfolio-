@@ -7,14 +7,17 @@ import {
   IconButton
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import "../../App.css";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("home");
 
-  const sections = ["home", "about", "service", "resume", "project", "contact"];
+  // const sections = ["home", "about", "service", "resume", "project", "contact"];
+  const sections = useMemo(() => {
+  return ["home", "about", "service", "resume", "project", "contact"];
+}, []);
 
   // Scroll Spy
   useEffect(() => {

@@ -3,10 +3,7 @@ import React from 'react'
 import "../../App.css"
 import Image from "../../Image/figma pic.png"
 import StarIcon from "@mui/icons-material/Star";
-import Service from '../Service/Service';
-import About from '../About/About';
-import Hire from '../Hire/Hire';
-import Contact from '../Contact/Contact';
+
 
 const Home = () => {
   return (
