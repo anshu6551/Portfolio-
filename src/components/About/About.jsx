@@ -4,24 +4,31 @@ import { Box, Typography, Container } from "@mui/material";
 const journeyData = [
   {
     leftTitle: "Webskitters Academy",
-    leftDate: "Jan 2022 – Dec 2022",
+    leftDate: "Aug 2023 – Feb 2025",
     rightTitle: "Frontend Development Learner",
     rightDesc:
-      "Started learning HTML, CSS, JavaScript and built responsive websites to understand core web fundamentals."
+      "Completed frontend development training at Webskitters Academy, building a strong foundation in HTML, CSS, and JavaScript while gaining hands-on experience with React.js, Next.js, and Material UI to develop responsive and modern web applications."
   },
   {
     leftTitle: "Personal Projects",
-    leftDate: "Jan 2023 – Dec 2023",
+    leftDate: "Jan 2025 – Mar 2025",
     rightTitle: "React & UI Developer",
     rightDesc:
-      "Built multiple responsive projects using React and Material UI, focusing on clean design and user experience."
+      "Built multiple real-world frontend projects to apply development skills, focusing on responsive layouts, reusable components, and modern UI practices."
+  },
+  {
+    leftTitle: "Intership at Elite Tech Intern",
+    leftDate: " Apr 2025 – July 2025",
+    rightTitle: "React js Intern",
+    rightDesc:
+      "Worked on real-world React projects, improving UI consistency, implementing animations, optimizing performance, and collaborating in a professional development environment."
   },
   {
     leftTitle: "Continuous Skill Growth",
-    leftDate: "2024 – Present",
-    rightTitle: "Frontend Developer",
+    leftDate: "July 2025 – Present",
+    rightTitle: "Frontend / Full-Stack Developer",
     rightDesc:
-      "Developing advanced portfolio projects and improving UI consistency, animations and performance."
+      "Currently expanding development capabilities by learning backend technologies including Node.js, Express.js, and Docker, while developing full-stack applications and strengthening knowledge of modern web development practices."
   }
 ];
 
@@ -119,7 +126,7 @@ export default function About() {
                   zIndex: 2,
                   my: { xs: 2, md: 0 },
                   flexShrink: 0,
-                  display:{xs:"none",md:"block"}
+                  display: { xs: "none", md: "block" }
                 }}
               />
 

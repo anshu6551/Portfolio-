@@ -11,12 +11,13 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import BgImage from "../../Image/service-bg.jpg";
 
 import cardImage from "../../Image/card-image.png";
+import { Link } from "react-router-dom";
 const Service = () => {
 
     const services = [
-        { title: "UI / UX Design", img: cardImage },
-        { title: "Web Design", img: cardImage },
-        { title: "Landing Page", img: cardImage }
+        { title: "UI / UX Design", img: cardImage, Link:"https://real-state-eta-khaki.vercel.app/" },
+        { title: "Web Design", img: cardImage, Link:"" },
+        { title: "Landing Page", img: cardImage, Link:"" }
     ];
     return (
         <Box

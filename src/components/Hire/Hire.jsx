@@ -61,13 +61,13 @@ const HireButton = styled(Button)(({ theme }) => ({
 const Hire = () => {
     const skills = [
         { name: 'HTML5', percentage: 90 },
-        { name: 'CSS3', percentage: 85 },
-        { name: 'BOOTSTRAP', percentage: 65 },
-        { name: 'JAVASCRIPT', percentage: 95 },
-        { name: 'REACT-JS', percentage: 88 },
-        { name: 'MUI', percentage: 92 },
-         { name: 'NEXT-JS', percentage: 88 },
-          { name: 'GIT', percentage: 60 },
+        { name: 'CSS3', percentage: 80 },
+        { name: 'BOOTSTRAP', percentage: 80 },
+        { name: 'JAVASCRIPT', percentage: 80 },
+        { name: 'REACT-JS', percentage: 75 },
+        { name: 'MUI', percentage: 60 },
+         { name: 'NEXT-JS', percentage: 50 },
+          { name: 'GIT', percentage: 75 },
     ];
 
     return (
